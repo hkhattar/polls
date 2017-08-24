@@ -1,0 +1,47 @@
+<a href="/#dashboard">Cancel</a>
+
+<h3>Put the questions and options here:</h3>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6 offset-m3">
+      <div class="card">
+        <div class="card-content">
+         
+          <form>
+            <div class="row">
+              <div class="input-field col s12">
+              Question:
+                <input  id="question" type="text" class="validate" ng-model='new_poll.question' name="question">
+                <label for="question" class="active"></label>
+              </div>
+               <div class="input-field col s12">
+              Option 1:
+                <input  id="option_one" type="text" class="validate" ng-model='new_poll.option1' name="option_one">
+                <label for="option_one" class="active"></label>
+              </div>
+                <div class="input-field col s12">
+              Option 2:
+                <input  id="option_two" type="text" class="validate" ng-model='new_poll.option2' name="option_two">
+                <label for="option_two" class="active"></label>
+              </div>
+                <div class="input-field col s12">
+              Option 3:
+                <input  id="option_three" type="text" class="validate" ng-model='new_poll.option3' name="option_three">
+                <label for="option_three" class="active"></label>
+              </div>
+                <div class="input-field col s12">
+              Option 4:
+                <input  id="option_four" type="text" class="validate" ng-model='new_poll.option4' name="option_four">
+                <label for="option_four" class="active"></label>
+              </div>
+            </div>
+         
+            <input type="submit" class="btn" value="Create Poll" ng-click='addPoll()'>
+          </form>
+        </div>
+      </div>
+    </div>
+ </div>
+</div>
